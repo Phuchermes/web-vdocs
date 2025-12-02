@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build:web": "expo export --platform web"
   },
   "dependencies": {
     "@pdf-lib/fontkit": "^1.1.1",
@@ -30,6 +31,7 @@
     "react-dom": "19.1.0",
     "react-native": "0.81.5",
     "react-native-appwrite": "^0.18.0",
+    "react-native-pdf": "^7.0.3",
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
     "react-native-signature-canvas": "^5.0.1",
