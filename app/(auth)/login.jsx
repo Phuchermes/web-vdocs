@@ -102,9 +102,9 @@ export const Login = () => {
       <Spacer />
       <Spacer height={100} />
 
-      <Link href="/register">
+      {/* <Link href="/register">
         <ThemedText style={{ textAlign: 'center' }}>Đăng ký</ThemedText>
-      </Link>
+      </Link> */}
     </ThemedView>
   );
 };
