@@ -8,7 +8,7 @@ export const UserProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [authChecked, setAuthChecked] = useState(false);
 
-  const API_URL = "http://backendvdocs.duckdns.org:3000";
+  const API_URL = "https://backendvdocs.duckdns.org";
 
   // ===== Load user từ AsyncStorage khi app/web khởi động =====
   useEffect(() => {
