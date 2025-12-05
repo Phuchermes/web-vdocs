@@ -16,7 +16,7 @@ import Spacer from "../../components/Spacer";
 import { useRouter } from "expo-router";
 import { Colors } from "../../constants/Colors";
 
-const API_URL = "http://backendvdocs.duckdns.org:3000";
+const API_URL = "https://backendvdocs.duckdns.org";
 
 export default function FileListScreen() {
   const [groups, setGroups] = useState([]);
